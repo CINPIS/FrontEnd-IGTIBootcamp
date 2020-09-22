@@ -123,7 +123,7 @@ const handleChangesInB = () => {
 const calculate = () => {
 
     let calculationBox = document.querySelector('#calculations');
-    let innerCalculations = document.querySelector('div');
+    let innerCalculations = document.createElement('div');
     innerCalculations.classList.add('row');
 
     let a = parseInt(globalInputA.value, 10);
