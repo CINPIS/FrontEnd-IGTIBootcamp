@@ -1,4 +1,4 @@
-Trabalho Prático de FRONTEND Bootcamp IGTI.
+FRONTEND Bootcamp IGTI.
 
 Trabalho Prático I: Super Calculadora.
 
