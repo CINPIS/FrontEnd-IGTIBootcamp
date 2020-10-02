@@ -1,0 +1,36 @@
+:root{
+    --background-color: #ffebee;
+    --text-color: #303030;
+    --titles: #c6cec6;
+    --card: #b8dbdb;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Montserrat', 'Helvetica', sans-serif;
+    height: 100vh;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+h1, h2{
+    color: var(--titles);
+    text-shadow: 1px 1px #303030;
+}
+
+h2{
+    font-size: 2rem;
+    color: var(--text-color);
+    text-shadow: 2px 2px var(--titles);
+}
+
+header p{
+    text-transform: uppercase;
+}

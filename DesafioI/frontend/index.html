@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="./source/assets/images/favicon.svg"
+      type="image/svg"
+      sizes="16x16"
+    />
+    <title>Dev Doc</title>
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- Sytles -->
+    <link rel="stylesheet" href="./source/assets/styles/global.css" />
+    <link rel="stylesheet" href="./source/styles/search.css" />
+
+  </head>
+  <body>
+    <header class="center">
+      <h1>Search for a Dev</h1>
+      <p>Have fun.</p>
+    </header>
+    <main role="main">
+      <div class="container" id="searchContainer">
+        <form id="formSearch">
+          <fieldset>
+            <legend class="hidden">Dev Name</legend>
+            <div class="field">
+              <label for="search">Dev Name</label>
+              <input 
+                type="text"
+                id="search"
+                name="search"
+                placeholder="Search the Dev Name"
+                autofocus>
+              <button type="searcher" id="searcher"></button>
+            </div>
+          </fieldset>
+          <fieldset>
+            <div class="center">
+              <legend>
+                <h2>Select the Dev Language</h2>
+              </legend>
+            </div>
+            <div class="language-grid">
+              <li data-id="java">
+                <img src="./source/assets/images/java.png" alt="Java">
+                <span>Java</span>
+              </li>
+              <li data-id="javascript">
+                <img src="./source/assets/images/javascript.png" alt="JavaScript">
+                <span>JavaScript</span>
+              </li>
+              <li data-id="python">
+                <img src="./source/assets/images/python.png" alt="Python">
+                <span>Python</span>
+              </li>
+            </div>
+            <input type="hidden" name="languages">
+          </fieldset>
+        </form>
+        <div class="container">
+            <span class="countDevs"></span>
+            <div id="devBox"></div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./source/scripts/index.js"></script>
+  </body>
+</html>
