@@ -2,7 +2,7 @@
 
 This project is about a Simple Photo Gallery that was generated with Angular [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
 
-# Objectives and Concepts
+## Objectives and Concepts
 
 Exercise to work with Angular: 
 
