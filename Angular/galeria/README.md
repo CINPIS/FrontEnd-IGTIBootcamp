@@ -9,7 +9,7 @@ Exercise to work with Angular:
 - Components and Templates, 
 - Data/ Event Bindings, 
 - Estructural Directives, 
-- Component Styles with standard CSS.
+- Component Basic Styled with standard CSS.
 
 # Technologies
 
@@ -20,4 +20,5 @@ Exercise to work with Angular:
 
 # ScreenShot (Simple Gallery)
 
+![Image](https://github.com/CINPIS/FrontEnd-IGTIBootcamp/blob/master/Angular/galeria/screenshot.png?raw=true "Angular Exercise")
 
