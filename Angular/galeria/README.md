@@ -11,14 +11,14 @@ Exercise to work with Angular:
 - Structural Directives, 
 - Component Styled with standard CSS.
 
-# Technologies
+## Technologies
 
 - Angular,
 - TypeScript,
 - HTML,
 - CSS.
 
-# ScreenShot 
+## ScreenShot 
 
 ![Image](https://github.com/CINPIS/FrontEnd-IGTIBootcamp/blob/master/Angular/galeria/screenshot.png?raw=true "Angular Exercise")
 
