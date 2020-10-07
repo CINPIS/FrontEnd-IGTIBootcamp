@@ -1,8 +1,8 @@
-# Galeria Project
+# Gallery Project
 
-This project was generated with Angular [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
+This project is about a Simple Photo Gallery that was generated with Angular [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
 
-# Objectives
+# Objectives and Concepts
 
 Exercise to work with Angular: 
 
@@ -18,7 +18,7 @@ Exercise to work with Angular:
 - HTML,
 - CSS.
 
-# ScreenShot (Simple Gallery)
+# ScreenShot 
 
 ![Image](https://github.com/CINPIS/FrontEnd-IGTIBootcamp/blob/master/Angular/galeria/screenshot.png?raw=true "Angular Exercise")
 
