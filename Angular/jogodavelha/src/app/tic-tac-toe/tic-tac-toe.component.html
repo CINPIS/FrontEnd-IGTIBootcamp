@@ -1,0 +1,22 @@
+<h1>TicTacToe</h1>
+<p>Jogador Atual: {{ currentPlayer }}</p>
+<p>Vencedor: {{winner}} </p>
+<p><button (click)="reset()">Reiniciar Partida</button></p>
+
+<table>
+  <tr>
+    <td (click)="jogoDaVez(0, 0)">{{matrizBoard[0][0]}}</td>
+    <td (click)="jogoDaVez(0, 1)">{{matrizBoard[0][1]}}</td>
+    <td (click)="jogoDaVez(0, 2)">{{matrizBoard[0][2]}}</td>
+  </tr>
+  <tr>
+    <td (click)="jogoDaVez(1, 0)">{{matrizBoard[1][0]}}</td>
+    <td (click)="jogoDaVez(1, 1)">{{matrizBoard[1][1]}}</td>
+    <td (click)="jogoDaVez(1, 2)">{{matrizBoard[1][2]}}</td>
+  </tr>
+  <tr>
+    <td (click)="jogoDaVez(2, 0)">{{matrizBoard[2][0]}}</td>
+    <td (click)="jogoDaVez(2, 1)">{{matrizBoard[2][1]}}</td>
+    <td (click)="jogoDaVez(2, 2)">{{matrizBoard[2][2]}}</td>
+  </tr>
+</table>

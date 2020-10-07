@@ -1,0 +1,33 @@
+app-tic-tac-toe{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+app-tic-tac-toe > h1{
+    text-shadow: 1px 1px salmon;
+}
+
+app-tic-tac-toe button{
+    height: 3em;
+    width: 15em;
+    background-color: rgb(233, 227, 227);
+    border-radius: 8px;
+}
+
+app-tic-tac-toe > table{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+app-tic-tac-toe td{
+    border: 3px solid salmon;
+    height: 4em;
+    width: 4em;
+
+    text-align: center;
+    vertical-align: middle;
+
+    color: darkolivegreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
