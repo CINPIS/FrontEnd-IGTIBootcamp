@@ -8,7 +8,7 @@ Exercise to work with Angular:
 
 - Components and Templates, 
 - Data/ Event Bindings, 
-- Estructural Directives, 
+- Structural Directives, 
 - Component Styled with standard CSS.
 
 # Technologies
