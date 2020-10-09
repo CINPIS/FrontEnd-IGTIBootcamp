@@ -1,17 +1,22 @@
-<h2>{{titulo}}</h2>
-<div *ngIf="!fotos.length">
-    Nenhuma Imagem
+<div class="wall">
+    <h2>{{titulo}}</h2>
+    <div *ngIf="!fotos.length">
+        Nenhuma Imagem
+    </div>
+    <ng-container *ngIf="fotos.length">
+        <div class="fotos">
+            <ng-container *ngFor="let foto of fotos; let i = index">
+                <img [src]="foto" [style.opacity]="i === currentImage ? 1 : 0" />
+            </ng-container>
+        </div>
+        <div>
+            <button [disabled]="!currentImage" (click)="firstPrev()">&le;</button>
+            <button [disabled]="!currentImage" (click)="prev()">&lt;</button>
+            <button [disabled]="currentImage == fotos.length - 1" (click)="next()">&gt;</button>
+            <button [disabled]="currentImage == fotos.length - 1" (click)="lastNext()">&ge;</button>
+            <div class="current-image">
+                <span>Photo {{currentImage + 1}} de {{fotos.length}} </span>
+            </div>
+        </div>
+    </ng-container>
 </div>
-<ng-container *ngIf="fotos.length">
-    <div class="fotos">
-        <ng-container *ngFor="let foto of fotos; let i = index">
-            <img [src]="foto" [style.opacity]="i === currentImage ? 1 : 0" />
-        </ng-container>
-    </div>
-    <div>
-        <button [disabled]="!currentImage" (click)="firstPrev()">&le;</button>
-        <button [disabled]="!currentImage" (click)="prev()">&lt;</button>
-        <button [disabled]="currentImage == fotos.length - 1" (click)="next()">&gt;</button>
-        <button [disabled]="currentImage == fotos.length - 1" (click)="lastNext()">&ge;</button>
-    </div>
-</ng-container>

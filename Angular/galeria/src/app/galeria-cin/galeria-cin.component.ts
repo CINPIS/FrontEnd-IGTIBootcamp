@@ -9,6 +9,7 @@ export class GaleriaCinComponent  {
 
   @Input() titulo: string = '';
   @Input() fotos: string[] = [];
+  @Input() description: string = '';
   currentImage: number = 0;
 
   prev(){
