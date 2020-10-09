@@ -20,5 +20,5 @@ Exercise to work with Angular:
 
 ## ScreenShot 
 
-![Image](https://github.com/CINPIS/FrontEnd-IGTIBootcamp/blob/master/Angular/galeria/screenshot.png?raw=true "Angular Exercise")
+![Image](https://github.com/CINPIS/FrontEnd-IGTIBootcamp/blob/master/Angular/galeria/Screenshot.png?raw=true "Angular Exercise")
 
